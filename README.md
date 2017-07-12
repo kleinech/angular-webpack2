@@ -26,6 +26,8 @@
 **IMPORTANT: always make sure to run** `npm start` **first! Otherwise the app is not running and therefore not loading
    when running the debugger.**
 
+Note: Debugging only works if no other JetBrains IDE is currently using the standard web debug port 63342.
+
 ## TSLint
 1. Go to `File -> Settings -> Language and Frameworks -> TypeScript -> TSLint`
 2. Set `Enabled` to true
