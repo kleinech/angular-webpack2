@@ -28,7 +28,12 @@
 
 Note: Debugging only works if no other JetBrains IDE is currently using the standard web debug port 63342.
 
-## TSLint
+## Codestyle
+### IntelliJ Code Style
+Import the `IntelliJ Code Style.xml` into `File -> Settings -> Editor -> Code Style`. Click on the gear wheel and choose
+  import IntelliJ Code Style xml.
+
+###TSLint
 1. Go to `File -> Settings -> Language and Frameworks -> TypeScript -> TSLint`
 2. Set `Enabled` to true
 3. Press `OK` 
@@ -36,10 +41,10 @@ Note: Debugging only works if no other JetBrains IDE is currently using the stan
 Usually IntelliJ finds the `tslint.json` automatically, otherwise configure it in the same window yourself.  
 
 ### Automatically fix issues
-Use the `[Alt] + [Enter]` shortcut to quickly fix TSLint errors by selecting `TSLint: Fix current ...`
+Use the <kbd>Alt<kbd> + <kbd>Enter<kbd> shortcut to quickly fix TSLint errors by selecting `TSLint: Fix current ...`
 
-In most cases, the shortcut `[ctrl] + [alt] + L` (auto-format) automatically fixes most issues. If you press 
-`[ctrl] + [shift] + [alt] + L`, you can configure it to auto fix the imports also which is very useful. 
+In most cases, the shortcut <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>L</kbd> (auto-format) automatically fixes most issues. If you press 
+<kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>L</kbd>, you can configure it to auto fix the imports also which is very useful. 
 
 #### Fix all issues at once
 1. Install TSLint global
